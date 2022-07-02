@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Search = props => {
-  const { color = 'none', size, ...otherProps } = props;
+  const { color, size, ...otherProps } = props;
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -13,9 +13,9 @@ const Search = props => {
       {...otherProps}
     >
       <path
-        d="M20.125 21l-4.169-4.35M10.542 6c2.646 0 4.791 2.239 4.791 5m2.875 0c0 4.418-3.432 8-7.666 8-4.235 0-7.667-3.582-7.667-8s3.432-8 7.667-8c4.234 0 7.666 3.582 7.666 8z"
+        d="M21 21l-4.35-4.35M11 6a5 5 0 015 5m3 0a8 8 0 11-16 0 8 8 0 0116 0z"
         stroke="#111"
-        strokeWidth="2.5"
+        strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
       ></path>
