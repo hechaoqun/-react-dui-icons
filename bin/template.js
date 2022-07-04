@@ -12,9 +12,6 @@ const getAttrs = (style) => {
   const strokeAttrs = {
     fill: 'none',
     stroke: 'color',
-    strokeWidth: 2,
-    strokeLinecap: 'round',
-    strokeLinejoin: 'round',
     otherProps: '...otherProps'
   }
   return Object.assign({}, baseAttrs, style==='fill' ? fillAttrs : strokeAttrs)
@@ -42,7 +39,8 @@ const getElementCode = (ComponentName, attrs, svgCode) => `
   }
 
   ${ComponentName}.defaultProps = {
-    color: 'none',
+    // color: 'currentColor',
+    color: '#111',
     size: '24',
   }
 

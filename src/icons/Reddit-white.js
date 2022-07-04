@@ -27,7 +27,8 @@ RedditWhite.propTypes = {
 };
 
 RedditWhite.defaultProps = {
-  color: 'none',
+  // color: 'currentColor',
+  color: '#111',
   size: '24'
 };
 

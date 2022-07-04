@@ -27,7 +27,8 @@ LinkedinWhite.propTypes = {
 };
 
 LinkedinWhite.defaultProps = {
-  color: 'none',
+  // color: 'currentColor',
+  color: '#111',
   size: '24'
 };
 

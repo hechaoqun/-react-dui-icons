@@ -27,7 +27,8 @@ TwitterBlack.propTypes = {
 };
 
 TwitterBlack.defaultProps = {
-  color: 'none',
+  // color: 'currentColor',
+  color: '#111',
   size: '24'
 };
 
