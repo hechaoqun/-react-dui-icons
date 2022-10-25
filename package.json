@@ -1,6 +1,6 @@
 {
   "name": "react-dui-icons",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Figma to icons",
   "main": "dist/react-dui-icons.cjs.js",
   "module": "dist/react-dui-icons.esm.js",
