@@ -9,8 +9,10 @@ const Unradio = props => {
       width={size}
       height={size}
       viewBox="0 0 24 24"
+      class="dui-icon"
       fill="none"
-      stroke={color}
+      stroke="currentcolor"
+      color={color}
       {...otherProps}
     >
       <circle cx="12" cy="12" r="11" strokeWidth="2"></circle>
@@ -25,7 +27,7 @@ Unradio.propTypes = {
 
 Unradio.defaultProps = {
   // color: 'currentColor',
-  color: '#111',
+  color: '#0C0F0F',
   size: '24'
 };
 

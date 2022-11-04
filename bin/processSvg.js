@@ -23,6 +23,12 @@ function optimize(svg) {
       // { removeAttrs: { attrs: '(fill|stroke.*)' } },
       { removeAttrs: { attrs: '(stroke)' } },
       { removeTitle: true },
+      {
+        removeAttributesBySelector:{
+          selector: "[fill='#111']",
+          attributes: "fill"
+        }
+      }
     ],
   });
 

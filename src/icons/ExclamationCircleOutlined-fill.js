@@ -9,7 +9,9 @@ const ExclamationCircleOutlinedFill = props => {
       width={size}
       height={size}
       viewBox="0 0 24 24"
-      fill={color}
+      class="dui-icon"
+      fill="currentcolor"
+      color={color}
       {...otherProps}
     >
       <path
@@ -27,7 +29,7 @@ ExclamationCircleOutlinedFill.propTypes = {
 
 ExclamationCircleOutlinedFill.defaultProps = {
   // color: 'currentColor',
-  color: '#111',
+  color: '#0C0F0F',
   size: '24'
 };
 

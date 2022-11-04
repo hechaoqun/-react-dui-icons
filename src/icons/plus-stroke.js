@@ -9,15 +9,16 @@ const Plus = props => {
       width={size}
       height={size}
       viewBox="0 0 24 24"
+      class="dui-icon"
       fill="none"
-      stroke={color}
+      stroke="currentcolor"
+      color={color}
       {...otherProps}
     >
       <path
         fillRule="evenodd"
         clipRule="evenodd"
         d="M13 11V6h-2v5H6v2h5v5h2v-5h5v-2h-5z"
-        fill="#111"
       ></path>
     </svg>
   );
@@ -30,7 +31,7 @@ Plus.propTypes = {
 
 Plus.defaultProps = {
   // color: 'currentColor',
-  color: '#111',
+  color: '#0C0F0F',
   size: '24'
 };
 

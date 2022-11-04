@@ -9,8 +9,10 @@ const Auction = props => {
       width={size}
       height={size}
       viewBox="0 0 24 24"
+      class="dui-icon"
       fill="none"
-      stroke={color}
+      stroke="currentcolor"
+      color={color}
       {...otherProps}
     >
       <path
@@ -50,7 +52,7 @@ Auction.propTypes = {
 
 Auction.defaultProps = {
   // color: 'currentColor',
-  color: '#111',
+  color: '#0C0F0F',
   size: '24'
 };
 

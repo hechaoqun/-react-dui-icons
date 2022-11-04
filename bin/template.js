@@ -4,14 +4,17 @@ const getAttrs = (style) => {
     width: 'size',
     height: 'size',
     viewBox: '0 0 24 24',
+    class: 'dui-icon'
   }
   const fillAttrs = {
-    fill: 'color',
+    fill: 'currentcolor',
+    color: 'color',
     otherProps: '...otherProps'
   }
   const strokeAttrs = {
     fill: 'none',
-    stroke: 'color',
+    stroke: 'currentcolor',
+    color: 'color',
     otherProps: '...otherProps'
   }
   return Object.assign({}, baseAttrs, style==='fill' ? fillAttrs : strokeAttrs)

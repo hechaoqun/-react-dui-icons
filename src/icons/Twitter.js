@@ -9,7 +9,9 @@ const Twitter = props => {
       width={size}
       height={size}
       viewBox="0 0 24 24"
-      fill={color}
+      class="dui-icon"
+      fill="currentcolor"
+      color={color}
       {...otherProps}
     >
       <rect width="24" height="24" rx="12" fill="#3CF"></rect>
@@ -28,7 +30,7 @@ Twitter.propTypes = {
 
 Twitter.defaultProps = {
   // color: 'currentColor',
-  color: '#111',
+  color: '#0C0F0F',
   size: '24'
 };
 

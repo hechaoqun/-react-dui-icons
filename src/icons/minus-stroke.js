@@ -9,11 +9,13 @@ const Minus = props => {
       width={size}
       height={size}
       viewBox="0 0 24 24"
+      class="dui-icon"
       fill="none"
-      stroke={color}
+      stroke="currentcolor"
+      color={color}
       {...otherProps}
     >
-      <path d="M6 11h12v2H6v-2z" fill="#111"></path>
+      <path d="M6 11h12v2H6v-2z"></path>
     </svg>
   );
 };
@@ -25,7 +27,7 @@ Minus.propTypes = {
 
 Minus.defaultProps = {
   // color: 'currentColor',
-  color: '#111',
+  color: '#0C0F0F',
   size: '24'
 };
 
