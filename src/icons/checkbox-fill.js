@@ -14,7 +14,7 @@ const CheckboxFill = props => {
       color={color}
       {...otherProps}
     >
-      <path d="M0 3a3 3 0 013-3h18a3 3 0 013 3v18a3 3 0 01-3 3H3a3 3 0 01-3-3V3z"></path>
+      <rect width="24" height="24" rx="3"></rect>
       <path
         d="M9.857 15.215l9.285-9.286 1.43 1.428L9.857 18.07 3.43 11.643l1.428-1.428 5 5z"
         fill="#fff"

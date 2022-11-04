@@ -15,7 +15,7 @@ const Minus = props => {
       color={color}
       {...otherProps}
     >
-      <path d="M6 11h12v2H6v-2z"></path>
+      <path d="M6 11h12v2H6v-2z" fill="#fff"></path>
     </svg>
   );
 };

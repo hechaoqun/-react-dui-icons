@@ -25,7 +25,7 @@ function optimize(svg) {
       { removeTitle: true },
       {
         removeAttributesBySelector:{
-          selector: "[fill='#111']",
+          selector: "[fill='#0C0F0F']",
           attributes: "fill"
         }
       }

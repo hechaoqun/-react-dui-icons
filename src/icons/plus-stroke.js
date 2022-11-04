@@ -19,6 +19,7 @@ const Plus = props => {
         fillRule="evenodd"
         clipRule="evenodd"
         d="M13 11V6h-2v5H6v2h5v5h2v-5h5v-2h-5z"
+        fill="#fff"
       ></path>
     </svg>
   );
