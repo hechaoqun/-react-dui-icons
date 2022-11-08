@@ -4,7 +4,7 @@ const getAttrs = (style) => {
     width: 'size',
     height: 'size',
     viewBox: '0 0 24 24',
-    class: 'dui-icon'
+    className: 'dui-icon'
   }
   const fillAttrs = {
     fill: 'currentcolor',

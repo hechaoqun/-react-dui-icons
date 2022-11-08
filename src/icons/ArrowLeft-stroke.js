@@ -9,7 +9,7 @@ const ArrowLeft = props => {
       width={size}
       height={size}
       viewBox="0 0 24 24"
-      class="dui-icon"
+      className="dui-icon"
       fill="none"
       stroke="currentcolor"
       color={color}
